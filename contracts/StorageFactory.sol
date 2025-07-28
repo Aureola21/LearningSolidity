@@ -12,6 +12,7 @@ contract StorageFactory {
         // Other way is that we can directly import the contract into this file
         SimpleStorage simpleStorage = new SimpleStorage();
         simpleStorageArray.push(simpleStorage);
+        
 
     }
     //But now we want to interact with the contracts
